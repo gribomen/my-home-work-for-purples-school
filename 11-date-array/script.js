@@ -15,7 +15,7 @@ function processingArrays(arr){
             return false;
         }
 
-        if(!(typeof Number(element[2]) == "number" && Number(element[1]) > 0)){
+        if(!(typeof Number(element[2]) == "number" && Number(element[2]) > 0)){
             return false;
         }
 
