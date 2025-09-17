@@ -9,4 +9,4 @@ if(true){
 function a(b,b){
     console.log(b);
 }
-a(1,2);
+a(1,2);//Очень плохо))) А я плохой_)
