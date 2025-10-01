@@ -8,49 +8,33 @@
 </head>
 
 <body>
-    <form action="#" method="get">
-        <div>
-            <label for="find">Найти:</label>
-            <input type="text" placeholder="Введите запрос" id="find" name="query" required minlength="4" maxlength="10"> 
-        </div>
-        <div>
-            <label for="agree">Согласен с обработкой данных</label>
-            <input type="checkbox" name="agree" id="agree" checked>
-        </div>
-        <div>
-            <label for="all">Поиск по всюду</label>
-            <input type="radio" name="search" id="all" value="all">
-        </div>
-        <div>
-            <label for="rutube">Поиск на Rutube</label>
-            <input type="radio" name="search" id="rutube" value="rutube">
-        </div>
-        <div>
-            <label for="topic">Тематика</label>
-            <select name="topic" id="topic">
-                <option value="1">Все</option>
-                <optgroup label="Популярные">
-                    <option value="2">Животные</option>
-                    <option value="1" selected>Разработка</option>
-                </optgroup>
-
-            </select>
-        </div>
-        <div>
-            <label for="volume">Громкость</label>
-            <input type="range" name="volume" id="volume" min="0" max="10" step="2">
-        </div>
-        <div>
-            <label for="num">Оценка</label>
-            <input type="number" name="num" id="num" min="1" max="5" step="1" value="1">
-        </div>
-        <div>
-            <label for="text">Комментарий</label>
-            <textarea name="text" id="text" rows="10" cols="60"></textarea>
-        </div>
-        <button type="submit">Отправить</button>
-    </form>
-    <!-- <button>Кнопка вне формы</button> -->
+    <main>
+        <h1>Свяжитесь со мной</h1>
+        <form action="#">
+            <div>
+                <img src="./message.svg" alt="иконка конверта">
+                <label for="email">E-mail<sup>*</sup></label>
+                <input type="email" id="email" value="123@gmail.com">
+            </div>
+            <div>
+                <img src="./telegram.svg" alt="иконка конверта">
+                <label for="telegram">Telegram</label>
+                <input type="telegram" id="telegram" value="123@gmail.com">
+            </div>
+            <div>
+                <img src="./vector.svg" alt="иконка конверта">
+                <label for="topic">Тема<sup>*</sup></label>
+                <select name="topic" id="topic">
+                    <option value="courses">Приобретение курсов</option>
+                </select>
+            </div>
+            <div>
+                <label for="text"></label>
+                <textarea name="text" id="text" rows="4" cols="70">Хочу купить ваши курсы для своих сотрудников и они станут очень умными. Направьте, пожалуйста, свои реквизиты для выставления счета. Хочу купить ваши курсы для своих сотрудников и они станут очень умными. Направьте, пожалуйста, свои реквизиты для выставления счета.</textarea>
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+    </main>
 </body>
 
 </html>
