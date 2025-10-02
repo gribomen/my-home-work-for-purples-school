@@ -1,0 +1,33 @@
+body {
+    background: #1E1F29;
+}
+
+label {
+    color: #AFB2BF;
+}
+
+div {
+    /* background-color: #FF0000; */
+    background: #2E2D3D;
+}
+
+h1 {
+    font-family: 'Andale Mono', monospace;
+    color: #FAFAFA;
+    font-size: 36px;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+input,
+button,
+select,
+textarea {
+    background-color: #2E2D3D;
+    color: #FAFAFA;
+
+}
+
+textarea {
+    line-height: 1.5;
+}
