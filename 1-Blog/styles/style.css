@@ -1,0 +1,96 @@
+body{
+    background: linear-gradient(180deg, #374151 20%, #111827 100%);
+}   
+
+.window_room > span{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+header li> span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+
+.header_find{
+    border-radius: 100px;
+    width: 224px;
+    height: 40px;
+    background: #283240;
+}
+
+.header_find input {
+    border: none;
+    background: #283240;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.6;
+}
+
+.mini_title{
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.6;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 158%;
+    text-align: center;
+    color: #fff;
+}
+
+.name_author{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #fff;
+}
+
+.post{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #fff;
+    opacity: 0.6;
+}
+
+.text_nav{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #fff;
+}
+
+.text2_nav{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #fff;
+}
+
+.span_line{
+    text-decoration: underline;
+}
+
+.text_fouter{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: #fff;
+    opacity: 0.6;
+}
