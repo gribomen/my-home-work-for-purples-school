@@ -9,8 +9,41 @@
     font-size: 18px;
 }
 
+#heroButton:hover {
+     background-color: #1e37af;
+}
+
+#heroButton:active {
+    background-color: #1a085c;
+}
+
+.heroForm input:focus{
+    background-color: rgb(240, 255, 241);
+}
+
+/*
+ul li:first-child{
+    color: #4262FF;
+}
+*/
+
+/*
+ul li:nth-child(2){ 
+    color: red;
+}
+*/ /*2n odd even 2n-1*/
+
+/* p:not(.sectionText){
+    color: aqua;
+} */
+
 .link {
     color: #4262FF;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #1e37af;
     text-decoration: underline;
 }
 
@@ -45,10 +78,36 @@ ul a{
     font-size: 16px;
     line-height: 150%;
     text-align: center;
-    color: #050038;
+    color: #754943;
     text-decoration: none;
 }
+
 .heroForm + p {
     font-size: 14px;
     line-height: 20px;
+}
+
+/* a::after{
+    color: red;
+    content: "!" ;
+}
+a::before {
+    color: red;
+    content: "!";
+}
+
+*::selection{
+    background-color: aqua;
+} */
+
+nav ul{
+    list-style: none;
+}
+
+/* .sectionList{
+    list-style-type: none;
+    list-style-image: url('../images/check.svg');
+} */
+.sectionList ::marker {
+    content: url(../images/check.svg);
 }
