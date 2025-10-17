@@ -108,6 +108,11 @@ nav ul{
     list-style-type: none;
     list-style-image: url('../images/check.svg');
 } */
+ 
 .sectionList ::marker {
     content: url(../images/check.svg);
+}
+
+body {
+    color: blueviolet;
 }
