@@ -1,0 +1,144 @@
+body{
+    background: linear-gradient(180deg, #374151 20%, #111827 100%);
+}   
+
+.window_room{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    background-color: #4B5563;
+    padding: 6px 12px;
+    height: 35px;
+    width: 35px;
+    box-sizing: border-box;
+}
+header a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.header_find{
+    border-radius: 100px;
+    width: 224px;
+    height: 40px;
+    background: #283240;
+}
+
+.header_find input {
+    border: none;
+    background: #283240;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.6;
+    margin: 9px 0 12px 35px;
+}
+
+.img_search{
+    width: 14px;
+    height: 14px;
+    margin: 14px 0 12px 18px;
+}
+ header {
+    margin: 0px 0px 69px 0px;
+ }
+
+.mini_title{
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.6;
+    margin: 0px 0px 14px 630px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 158%;
+    margin-left: 458px;
+    color: #fff;
+    max-width: 525px;
+    text-align: center;
+}
+
+.name_author{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #fff;
+}
+
+.post{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #fff;
+    opacity: 0.6;
+}
+
+address {
+    margin: 30px auto 28px;
+}
+
+.img_tv{
+    width: 896px;
+    height: 594px;
+    margin-left: 272px;
+    margin-bottom: 69px;
+}
+.text_nav{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #fff;
+    margin-left:367px;
+    margin-bottom: 38px;
+    max-width: 708px;
+}
+
+.text2_nav{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #fff;
+    margin-left: 367px;
+    max-width: 708px;
+}
+
+.text2_nav_footer{
+    margin-bottom: 103px;
+}
+
+.span_line{
+    text-decoration: underline;
+}
+
+.text_fouter{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: #fff;
+    opacity: 0.6;
+    margin: 0px 607px 77px 0px;
+}
