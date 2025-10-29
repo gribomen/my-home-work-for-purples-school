@@ -171,3 +171,11 @@ header{
 nav{
     padding: 33px 50px;
 }
+.exp div{
+    width: calc(100%/3);
+    height: 200px;
+    background-color: #050038;
+    margin: 10px;
+    color: white;
+    font-size: 24px;
+}

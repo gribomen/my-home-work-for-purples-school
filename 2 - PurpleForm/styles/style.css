@@ -1,165 +1,79 @@
+*{
+    box-sizing: border-box;
+}
 body {
     background: #1E1F29;
 } 
 
-h1 {
-    font-family: 'Andale Mono', monospace;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 120%;
-    text-align: center;
-    color: #fafafa;
-    width: 527px;
-    height: 43px;
-    margin: 48px 0px 32px 133px;
-}
-
-input,
-select,
-textarea {
-    background-color: #2E2D3D;
-    color: #FAFAFA;
-}
-
-textarea {
-    line-height: 1.5;
-}
-
-input{
-    background: #2e2d3d;
-}
-.input_email, .input_telegram, .input_topic, .textarea_text{
+main{
     border-radius: 10px;
-    width: 697px;
-    height: 58px;
-    background: #2e2d3d;
+    padding: 48px;
+    margin: 0 auto;
+    background-color: #37384b;
+    max-width: 600px;
+    min-width: 360px;
+}
+h1 {
+    color: #fafafa;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Andale Mono', sans-serif;
+    text-align: center;
+    margin: 0 0 32px 0;
+}
+
+.input_email,
+.input_telegram,
+.input_topic,
+.textarea_text {
+    margin-bottom: 16px;
     position: relative;
 }
 
-.input_email{
-    margin-bottom: 13px;
-    margin-left: 48px;
-    margin-right: 48px;
-}
-
-.input_email img label input{
-    position: absolute;
-}
-
-.input_email img {
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    margin: 17px 8px 17px 16px;
-}
-
-.input_email label {
-    width: 40px;
-    height: 14px;
-    position: absolute;
-    margin: 12px 0px 32px 48px;
-}
-
-.input_email input {
-    width: 114px;
-    height: 19px;
-    padding: 0px;
+input,select,textarea {
+    background-color: #2E2D3D;
+    color: #FAFAFA;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    font-family: 'Andale Mono', sans-serif;
+    padding: 27px 48px 12px;
+    border-radius: 10px;
     border: none;
-    position: absolute;
-    margin: 27px 0px 12px 48px;
-}
-
-.input_telegram{
-    margin-bottom: 19px;
-    margin-left: 48px;
-    margin-right: 48px;
-}
-
-.input_telegram img {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    margin: 20px 8px 14px 16px;
-}
-
-.input_telegram label {
-    position: absolute;
-    width: 50px;
-    height: 14px;
-    margin: 15px 0px 29px 48px;
-}
-
-.input_telegram input {
-    width: 114px;
-    height: 19px;
-    padding: 0px;
-    border: none;
-    position: absolute;
-    margin: 30px 0px 9px 48px;
-}
-
-.input_topic {
-    margin-bottom: 16px;
-    margin-left: 48px;
-    margin-right: 48px;
-}
-
-.input_topic img {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    margin: 17px 8px 17px 16px;
-}
-
-.input_topic label {
-    position: absolute;
-    width: 32px;
-    height: 14px;
-    margin: 12px 0px 32px 48px;
-}
-
-.input_topic select {
     width: 100%;
-    width: 166px;
-    height: 19px;
-    padding: 0px 0px 0px 0px;
-    border: none;
-    position: absolute;
-    margin: 27px 0px 12px 48px;
 }
 
-.textarea_text{
-    width: 697px;
-    height: 135px;
-    margin-bottom: 24px;
-    margin-left: 48px;
-    margin-right: 48px;
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+    color: #4a4863;
+    font-size: 16px;
 }
 
-.textarea_text label {
+label {
     position: absolute;
-    width: 77px;
-    height: 14px;
-    margin: 12px 0px 1px 24px;
+    top: 12px;
+    left: 48px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #FAFAFA;
+
 }
 
-.textarea_text textarea {
-    padding: 0px 0px 0px 0px;
-    width: 649px;
-    height: 96px;
-    border: none;
+img {
+    width: 24px;
+    height: 24px;
     position: absolute;
-    margin: 27px 24px 12px 24px;
-    resize: none;
+    top: 17px;
+    left: 16px;
 }
 
 [type = "submit"]{
     padding: 0;
     border: none;
     border-radius: 10px;
-    margin: 0px 0px 48px 48px;
-    width: 697px;
-    height: 46px;
+    padding: 12px 24px;
     background: #6c38cc;
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
