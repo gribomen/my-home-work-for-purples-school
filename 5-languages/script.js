@@ -1,0 +1,19 @@
+const promt = prompt("Введите на каком языке вам показать приветствие: en, ru, de?");
+
+switch(true){
+    case promt == "en":
+        console.log("Good morning");
+        break;
+    case promt == "ru":
+        console.log("Доброе утро");
+        break;
+    case promt == "de":
+        console.log("Guten Morgen");
+        break;
+    case promt == "ja":
+        console.log("おはよう！");
+        break;
+    case promt == "ba":
+        console.log("Хәйерле иртә");
+        break;
+}
